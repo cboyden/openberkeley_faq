@@ -106,11 +106,11 @@ function openberkeley_faq_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'panelizer_defaults_taxonomy_term_faqs';
   $strongarm->value = array(
-    'status' => 0,
+    'status' => 1,
     'view modes' => array(
       'page_manager' => array(
-        'status' => 0,
-        'default' => 0,
+        'status' => 1,
+        'default' => 1,
         'choice' => 0,
       ),
       'default' => array(

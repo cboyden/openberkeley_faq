@@ -26,7 +26,7 @@ function openberkeley_faq_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'featured' => array(
         'label' => 'above',
@@ -38,7 +38,7 @@ function openberkeley_faq_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 1,
       ),
     ),
     'entity_type' => 'node',
@@ -53,7 +53,7 @@ function openberkeley_faq_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 33,
+      'weight' => 34,
     ),
   );
 

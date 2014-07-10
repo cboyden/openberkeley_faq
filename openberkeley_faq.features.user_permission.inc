@@ -53,7 +53,9 @@ function openberkeley_faq_user_default_permissions() {
   // Exported permission: 'administer panelizer node faq defaults'.
   $permissions['administer panelizer node faq defaults'] = array(
     'name' => 'administer panelizer node faq defaults',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
@@ -126,6 +128,7 @@ function openberkeley_faq_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
+      'builder' => 'builder',
     ),
     'module' => 'node',
   );
