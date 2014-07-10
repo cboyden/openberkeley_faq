@@ -10,13 +10,13 @@
 function openberkeley_faq_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_category'
-  $field_bases['field_category'] = array(
+  // Exported field_base: 'field_openberkeley_faq_cat'
+  $field_bases['field_openberkeley_faq_cat'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_category',
+    'field_name' => 'field_openberkeley_faq_cat',
     'foreign keys' => array(
       'tid' => array(
         'columns' => array(

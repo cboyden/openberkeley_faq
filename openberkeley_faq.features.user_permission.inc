@@ -15,7 +15,6 @@ function openberkeley_faq_user_default_permissions() {
     'name' => 'administer faq',
     'roles' => array(
       'administrator' => 'administrator',
-      'builder' => 'builder',
     ),
     'module' => 'faq',
   );
@@ -25,7 +24,6 @@ function openberkeley_faq_user_default_permissions() {
     'name' => 'administer faq order',
     'roles' => array(
       'administrator' => 'administrator',
-      'builder' => 'builder',
       'editor' => 'editor',
     ),
     'module' => 'faq',
@@ -34,63 +32,56 @@ function openberkeley_faq_user_default_permissions() {
   // Exported permission: 'administer panelizer node faq breadcrumbs'.
   $permissions['administer panelizer node faq breadcrumbs'] = array(
     'name' => 'administer panelizer node faq breadcrumbs',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer node faq content'.
   $permissions['administer panelizer node faq content'] = array(
     'name' => 'administer panelizer node faq content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer node faq context'.
   $permissions['administer panelizer node faq context'] = array(
     'name' => 'administer panelizer node faq context',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer node faq defaults'.
   $permissions['administer panelizer node faq defaults'] = array(
     'name' => 'administer panelizer node faq defaults',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer node faq layout'.
   $permissions['administer panelizer node faq layout'] = array(
     'name' => 'administer panelizer node faq layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer node faq overview'.
   $permissions['administer panelizer node faq overview'] = array(
     'name' => 'administer panelizer node faq overview',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer node faq settings'.
   $permissions['administer panelizer node faq settings'] = array(
     'name' => 'administer panelizer node faq settings',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer taxonomy_term faqs defaults'.
+  $permissions['administer panelizer taxonomy_term faqs defaults'] = array(
+    'name' => 'administer panelizer taxonomy_term faqs defaults',
+    'roles' => array(),
     'module' => 'panelizer',
   );
 
@@ -99,8 +90,6 @@ function openberkeley_faq_user_default_permissions() {
     'name' => 'create faq content',
     'roles' => array(
       'administrator' => 'administrator',
-      'builder' => 'builder',
-      'contributor' => 'contributor',
       'editor' => 'editor',
     ),
     'module' => 'node',
@@ -111,7 +100,6 @@ function openberkeley_faq_user_default_permissions() {
     'name' => 'delete any faq content',
     'roles' => array(
       'administrator' => 'administrator',
-      'builder' => 'builder',
     ),
     'module' => 'node',
   );
@@ -121,7 +109,6 @@ function openberkeley_faq_user_default_permissions() {
     'name' => 'delete own faq content',
     'roles' => array(
       'administrator' => 'administrator',
-      'builder' => 'builder',
     ),
     'module' => 'node',
   );
@@ -129,10 +116,7 @@ function openberkeley_faq_user_default_permissions() {
   // Exported permission: 'delete terms in faqs'.
   $permissions['delete terms in faqs'] = array(
     'name' => 'delete terms in faqs',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'builder' => 'builder',
-    ),
+    'roles' => array(),
     'module' => 'taxonomy',
   );
 
@@ -141,7 +125,6 @@ function openberkeley_faq_user_default_permissions() {
     'name' => 'edit any faq content',
     'roles' => array(
       'administrator' => 'administrator',
-      'builder' => 'builder',
       'editor' => 'editor',
     ),
     'module' => 'node',
@@ -152,8 +135,6 @@ function openberkeley_faq_user_default_permissions() {
     'name' => 'edit own faq content',
     'roles' => array(
       'administrator' => 'administrator',
-      'builder' => 'builder',
-      'contributor' => 'contributor',
       'editor' => 'editor',
     ),
     'module' => 'node',
@@ -162,10 +143,7 @@ function openberkeley_faq_user_default_permissions() {
   // Exported permission: 'edit terms in faqs'.
   $permissions['edit terms in faqs'] = array(
     'name' => 'edit terms in faqs',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'builder' => 'builder',
-    ),
+    'roles' => array(),
     'module' => 'taxonomy',
   );
 

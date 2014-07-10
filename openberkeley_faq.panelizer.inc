@@ -28,38 +28,38 @@ function openberkeley_faq_panelizer_defaults() {
   $panelizer->css_class = '';
   $panelizer->title_element = 'H2';
   $panelizer->link_to_entity = TRUE;
-  $panelizer->extra = '';
+  $panelizer->extra = array();
   $display = new panels_display();
-  $display->layout = 'flexible';
+  $display->layout = 'boxton';
   $display->layout_settings = array();
   $display->panel_settings = array(
     'style_settings' => array(
       'default' => NULL,
-      'center' => NULL,
+      'contentmain' => NULL,
     ),
   );
   $display->cache = array();
   $display->title = '%node:title';
-  $display->uuid = '39304d2d-838c-4808-9ffc-36296e1dbda3';
+  $display->uuid = '39a94800-fd87-48f7-8e6a-1407db694881';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-e4689853-8018-4ab3-9544-c3acb5cb77d6';
-    $pane->panel = 'center';
+    $pane->pid = 'new-5b64652c-7621-4685-8d7f-8aefa56d0c9b';
+    $pane->panel = 'contentmain';
     $pane->type = 'node_content';
     $pane->subtype = 'node_content';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
       'links' => 0,
-      'no_extras' => 1,
+      'no_extras' => 0,
       'override_title' => 1,
       'override_title_text' => '',
       'identifier' => '',
       'link' => 0,
       'leave_node_title' => 0,
       'build_mode' => 'full',
-      'context' => 'panelizer',
+      'context' => array(),
     );
     $pane->cache = array();
     $pane->style = array(
@@ -69,11 +69,11 @@ function openberkeley_faq_panelizer_defaults() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = 'e4689853-8018-4ab3-9544-c3acb5cb77d6';
-    $display->content['new-e4689853-8018-4ab3-9544-c3acb5cb77d6'] = $pane;
-    $display->panels['center'][0] = 'new-e4689853-8018-4ab3-9544-c3acb5cb77d6';
+    $pane->uuid = '5b64652c-7621-4685-8d7f-8aefa56d0c9b';
+    $display->content['new-5b64652c-7621-4685-8d7f-8aefa56d0c9b'] = $pane;
+    $display->panels['contentmain'][0] = 'new-5b64652c-7621-4685-8d7f-8aefa56d0c9b';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-e4689853-8018-4ab3-9544-c3acb5cb77d6';
+  $display->title_pane = '0';
   $panelizer->display = $display;
   $export['node:faq:default'] = $panelizer;
 
