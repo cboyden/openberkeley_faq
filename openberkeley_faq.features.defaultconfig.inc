@@ -51,7 +51,7 @@ function openberkeley_faq_defaultconfig_strongarm() {
         'choice' => 0,
       ),
       'default' => array(
-        'status' => 1,
+        'status' => 0,
         'default' => 1,
         'choice' => 0,
       ),
@@ -82,7 +82,7 @@ function openberkeley_faq_defaultconfig_strongarm() {
         'choice' => 0,
       ),
       'default' => array(
-        'status' => 1,
+        'status' => 0,
         'default' => 1,
         'choice' => 0,
       ),

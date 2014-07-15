@@ -54,12 +54,7 @@ function openberkeley_faq_strongarm() {
       ),
       'default' => array(
         'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
-      'full' => array(
-        'status' => 0,
-        'default' => 0,
+        'default' => 1,
         'choice' => 0,
       ),
       'teaser' => array(
@@ -67,32 +62,7 @@ function openberkeley_faq_strongarm() {
         'default' => 0,
         'choice' => 0,
       ),
-      'rss' => array(
-        'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
-      'search_index' => array(
-        'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
-      'search_result' => array(
-        'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
-      'diff_standard' => array(
-        'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
       'featured' => array(
-        'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
-      'token' => array(
         'status' => 0,
         'default' => 0,
         'choice' => 0,
@@ -115,25 +85,10 @@ function openberkeley_faq_strongarm() {
       ),
       'default' => array(
         'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
-      'full' => array(
-        'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
-      'diff_standard' => array(
-        'status' => 0,
-        'default' => 0,
+        'default' => 1,
         'choice' => 0,
       ),
       'featured' => array(
-        'status' => 0,
-        'default' => 0,
-        'choice' => 0,
-      ),
-      'token' => array(
         'status' => 0,
         'default' => 0,
         'choice' => 0,
@@ -155,13 +110,6 @@ function openberkeley_faq_strongarm() {
   $strongarm->name = 'pathauto_node_faq_pattern';
   $strongarm->value = 'faq/[node:field_openberkeley_faq_cat]/[node:title]';
   $export['pathauto_node_faq_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_taxonomy_term_faqs_pattern';
-  $strongarm->value = '';
-  $export['pathauto_taxonomy_term_faqs_pattern'] = $strongarm;
 
   return $export;
 }

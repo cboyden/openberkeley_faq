@@ -1,0 +1,15 @@
+<?php
+/**
+ * Implementation of hook_install
+ */
+function openberkeley_faq_install() {
+  $vocab = taxonomy_vocabulary_machine_name_load('faqs');
+ 
+  $term1 = (object) array(
+    'name' => 'General',
+    'description' => 'General FAQs',
+    'vid' => $vocab->vid,
+  );
+ 
+  taxonomy_term_save($term1);
+}
