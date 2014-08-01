@@ -3,6 +3,7 @@ Open Berkeley FAQ - CHANGELOG
 
 openberkeley_news-7.x-0.1-alpha1
 ------------------------------
+* OPENUCB-364: Fix menu weight. Fix makefile destination.
 * OPENUCB-331: Add starter content. Install starter content by default.
 * OPENUCB-331: Fixed install hook.
 * OPENUCB-331: Rebuild feature. Makefile. Permissions and dependencies. Install hook.
