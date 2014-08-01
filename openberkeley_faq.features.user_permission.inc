@@ -94,14 +94,77 @@ function openberkeley_faq_user_default_permissions() {
     'module' => 'panelizer',
   );
 
+  // Exported permission: 'administer panelizer taxonomy_term faqs breadcrumbs'.
+  $permissions['administer panelizer taxonomy_term faqs breadcrumbs'] = array(
+    'name' => 'administer panelizer taxonomy_term faqs breadcrumbs',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer taxonomy_term faqs content'.
+  $permissions['administer panelizer taxonomy_term faqs content'] = array(
+    'name' => 'administer panelizer taxonomy_term faqs content',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer taxonomy_term faqs context'.
+  $permissions['administer panelizer taxonomy_term faqs context'] = array(
+    'name' => 'administer panelizer taxonomy_term faqs context',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer taxonomy_term faqs defaults'.
+  $permissions['administer panelizer taxonomy_term faqs defaults'] = array(
+    'name' => 'administer panelizer taxonomy_term faqs defaults',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer taxonomy_term faqs layout'.
+  $permissions['administer panelizer taxonomy_term faqs layout'] = array(
+    'name' => 'administer panelizer taxonomy_term faqs layout',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer taxonomy_term faqs overview'.
+  $permissions['administer panelizer taxonomy_term faqs overview'] = array(
+    'name' => 'administer panelizer taxonomy_term faqs overview',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer taxonomy_term faqs settings'.
+  $permissions['administer panelizer taxonomy_term faqs settings'] = array(
+    'name' => 'administer panelizer taxonomy_term faqs settings',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'panelizer',
+  );
+
   // Exported permission: 'create faq content'.
   $permissions['create faq content'] = array(
     'name' => 'create faq content',
     'roles' => array(
       'administrator' => 'administrator',
       'builder' => 'builder',
-      'contributor' => 'contributor',
       'editor' => 'editor',
+      'contributor' => 'contributor',
     ),
     'module' => 'node',
   );
@@ -153,8 +216,8 @@ function openberkeley_faq_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'builder' => 'builder',
-      'contributor' => 'contributor',
       'editor' => 'editor',
+      'contributor' => 'contributor',
     ),
     'module' => 'node',
   );
@@ -165,6 +228,7 @@ function openberkeley_faq_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'builder' => 'builder',
+      'editor' => 'editor',
     ),
     'module' => 'taxonomy',
   );
