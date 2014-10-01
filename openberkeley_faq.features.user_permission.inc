@@ -163,8 +163,8 @@ function openberkeley_faq_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'builder' => 'builder',
-      'editor' => 'editor',
       'contributor' => 'contributor',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -216,8 +216,8 @@ function openberkeley_faq_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'builder' => 'builder',
-      'editor' => 'editor',
       'contributor' => 'contributor',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
