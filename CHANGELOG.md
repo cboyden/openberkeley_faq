@@ -1,6 +1,11 @@
 Open Berkeley FAQ - CHANGELOG
 ==============================
 
+openberkeley_news-7.x-0.1-alpha2
+------------------------------
+* OPENUCB-412: Remove category from default display; match beta4 formatting.
+* OPENUCB-439: Fix feature recreate issue.
+
 openberkeley_news-7.x-0.1-alpha1
 ------------------------------
 * OPENUCB-364: Fix menu weight. Fix makefile destination.
